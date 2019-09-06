@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/band_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/burgerkill" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/band_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:text="@string/band_name" />
+
+        <!--<HorizontalScrollView-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="horizontal">-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:id="@+id/profile_image"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:src="@drawable/andra_and_the_backbone" />-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:id="@+id/profile_image1"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:src="@drawable/andra_and_the_backbone" />-->
+
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:id="@+id/profile_image2"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:src="@drawable/andra_and_the_backbone" />-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:id="@+id/profile_image3"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:src="@drawable/andra_and_the_backbone" />-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:id="@+id/profile_image4"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginEnd="16dp"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:src="@drawable/andra_and_the_backbone" />-->
+
+            <!--</LinearLayout>-->
+        <!--</HorizontalScrollView>-->
+
+        <TextView
+            android:id="@+id/band_detail"
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="end"
+            tools:text="@string/detail" />
+    </LinearLayout>
+</ScrollView>

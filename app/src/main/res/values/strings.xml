@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Band</string>
+    <string name="band_name">Nama Band</string>
+    <string name="detail">Detail</string>
+
+</resources>

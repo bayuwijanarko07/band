@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="150dp"
+        android:id="@+id/myPict"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bayu" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myPict"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Bayu Wijanarko"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myPict"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="bayuwijanarko07@gmail.com"
+        android:textSize="20sp" />
+
+</LinearLayout>
